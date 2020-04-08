@@ -20,10 +20,13 @@ Note you must explicitly add the jdk.incubator.foreign incubator package.
 These "tests" are not strictly tests, but rather application executions that allow you to monitor GC behavior.
 
 If you have not already done so, build the application jar:
+
 ```mvn clean package```
 
 To execute the array based continuous usage test:
+
 ```java --add-modules jdk.incubator.foreign -cp target/foreign_memory_access*.jar com.neueda.research.jep370.ContinuousUsageAnalysis_Array```
 
 To execute the off-heap based  continuous usage test:
+
 ```java --add-modules jdk.incubator.foreign -cp target/foreign_memory_access*.jar com.neueda.research.jep370.ContinuousUsageAnalysis_OffHeap```
