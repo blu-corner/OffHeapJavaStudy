@@ -1,3 +1,5 @@
+# PROJECT MOVED TO [Version1 Org/OffHeapJavaStudy](https://github.com/Version1/OffHeapJavaStudy). THIS REPOSITORY WILL NO LONGER BE MAINTAINED.
+
 # Running the Tests
 
 First of all you will of course need Java 14 installed.
